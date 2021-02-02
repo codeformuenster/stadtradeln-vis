@@ -1,0 +1,14 @@
+{
+  "name": "stadtradeln_ms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@turf/helpers": "^6.3.0"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=15.8.0",
+    "npm": ">=7.0.0"
+  }
+}

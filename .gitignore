@@ -1,0 +1,3 @@
+*.csv
+*.geojson
+node_modules
