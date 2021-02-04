@@ -18,7 +18,7 @@ Quellenvermerk: Grubitzsch P., Lißner S., Huber S., Springer T., [2021] Technis
 grep -E "7\.[5-8].*,(51\.(8|9)|52\.0[01])" heatmap_2019.csv > heatmap_2019_ms.csv
 ```
 
-## Convert to geojson
+## Convert to geojson & vector tiles
 
 ```
 npm install
@@ -27,5 +27,6 @@ node index.js
 
 ## Prepare visualization
 
+- Execute `node make-vectortiles.js` to generate the tiles
 - Obtain mapbox token and set it in `index.html` (`mapboxgl.accessToken =...`
 - Change the `var selectedYear = "...` to the year you want to show

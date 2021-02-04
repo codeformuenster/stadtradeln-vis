@@ -4,11 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@turf/helpers": "^6.3.0"
+    "@turf/helpers": "^6.3.0",
+    "geojson-vt": "^3.2.1",
+    "vt-pbf": "^3.1.1"
   },
   "type": "module",
   "engines": {
-    "node": ">=15.8.0",
-    "npm": ">=7.0.0"
+    "node": ">=15.8.0"
   }
 }
