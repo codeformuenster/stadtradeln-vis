@@ -5,7 +5,7 @@ const yearMax = {
 };
 let selectedYear = "2018";
 
-const tilesBaseDomain = window.location.origin;
+const tilesBaseDomain = window.location.href;
 
 const map = new mapboxgl.Map({
   container: "map",
@@ -31,7 +31,7 @@ map.on("load", function () {
     type: "vector",
     bounds: [7.5, 51.8, 7.8, 52.01], // [sw.lng, sw.lat, ne.lng, ne.lat]
     maxzoom: 14,
-    tiles: [tilesBaseDomain + "/assets/tiles/{z}/{x}/{y}.pbf"],
+    tiles: [tilesBaseDomain + "assets/tiles/{z}/{x}/{y}.pbf"],
     attribution:
       '<a target="_blank" rel="noopener" href=' +
       '"https://www.mcloud.de/web/guest/suche/-/results/detail/3096DB7A-9EE4-4C14-B2AA-79E33A7FFF01"' +
