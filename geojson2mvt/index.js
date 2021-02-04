@@ -6,7 +6,7 @@ const getTile = (z, x, y, tileIndex, layerNames) => {
   const pbfOptions = {};
 
   let createdTile = false;
-  for (var i = 0, ii = tileIndex.length; i < ii; ++i) {
+  for (let i = 0, ii = tileIndex.length; i < ii; ++i) {
     const tile = tileIndex[i].getTile(z, x, y);
 
     if (tile != null) {
