@@ -64,4 +64,3 @@ node index.js
 
 - Execute `node make-vectortiles.js` to generate the tiles
 - Obtain mapbox token and set it in `index.html` (`mapboxgl.accessToken =...`
-- Change the `var selectedYear = "...` to the year you want to show
